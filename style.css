@@ -1,0 +1,99 @@
+body{
+    padding:0px;
+    margin:0px;
+    display:flex;
+    flex-wrap:wrap;
+    min-height:100vh;
+    background-color:#F8F9F9;
+  }
+  
+  .container{
+    display:flex;
+    align-items:center;
+  }
+  header{
+    background: center / cover url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    width: 50vw;
+    height: 100vh;  
+  }
+  
+  .logo img{
+    height: 130px;
+    position:relative;
+    top:30vh;
+    left:10vw
+    
+  }
+  main{
+    font-size:20px;
+    
+  }
+  
+  .textinput{
+    font-size:25px;
+    margin-left:35px;
+  }
+  
+  button{
+    border-radius:4px;
+    padding: 15px 40px;
+    font-size:20px;
+    border:none;
+    color:white;
+    background-color:rgb(38, 77, 0);
+    margin-top:35px;
+    font-weight:900;
+  }
+  
+  a{
+    color:rgb(38, 77, 0);
+  }
+  
+  .footer{
+    font-size:20px;
+    margin-top:14px
+  }
+  
+  .inputs{  
+    box-shadow:10px 5px 5px rgb(246, 246, 238);
+    background-color:white;
+    padding-top:10px;
+  }
+  
+  ul{
+  list-style: none;  
+  }
+  
+  .password{
+    display:flex;
+    gap:10vw
+  }
+  
+  .emPhone{
+    display:flex;
+    gap:10vw
+  }
+  
+  .names{
+    display:flex;
+    gap:10vw
+  }
+  
+  input{
+  width:17vw;
+  height:3vh
+  }
+  
+  label{
+    color:#626567 
+  }
+  
+  legend{
+    margin-left:35px;
+    font-size:25px;
+    
+  }
+  
+  .submit{
+    margin-left:40px;
+  }
